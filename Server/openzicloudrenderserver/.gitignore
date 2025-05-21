@@ -1,0 +1,11 @@
+.vscode
+build
+Build
+cache
+Cache
+*.code-workspace
+*.zip
+include_old
+lib_old
+WebSocketExamples
+

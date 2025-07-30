@@ -1,0 +1,32 @@
+IDI_APPLICATION         ICON                    "Logo.ico"
+1 VERSIONINFO
+ FILEVERSION 1, 1, 0, 0
+ PRODUCTVERSION 1, 1, 0, 0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "FileDescription", "Cengzi Technology"
+            VALUE "FileVersion", "1,1,0,0"
+            VALUE "InternalName", "OpenZI Cloud Render Server"
+            VALUE "LegalCopyright", "Copyright by Cengzi Technology Co., Ltd. All Rights Reserved."
+            VALUE "OriginalFilename", ""
+            VALUE "ProductName", "OpenZI Cloud Render Server"
+            VALUE "ProductVersion", "1.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
